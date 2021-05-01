@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+
+body{
+  width:100%;
+  font-size:15px;
+  line-height:1.8px;
+  letter-spacing:1px;
+  word-break:break-all;
+  color:#333;
+}
+
+.box_all{
+  margin:0 5%;
+  /* background:white; */
+}
+
+.background{
+    background-image:url("https://cdn-ak.f.st-hatena.com/images/fotolife/n/naganagaikako/20210430/20210430154310.png");
+    background-size:500px;
+    background-position:center;
+    background-position:top;
+}
+
+/* ######header###### */
+
+a{
+  text-decoration:none;
+  /* color:#1ca9e3; */
+}
+
+li{
+  list-style:none;
+}
+
+.nav_all{
+width:100%;
+position:fixed;
+background-color:#ffffff;
+box-shadow:0 3px 3px 1px rgb(0 0 0 / 20%);
+}
+
+.nav_list{
+  display:flex;
+  justify-content:center; 
+  align-items:center;
+}
+
+.nav_item{
+  font-size:18px;
+  padding:0 24px;
+  margin:0 5%;
+}
+
+.nav_link{
+  display:inline-block;
+  padding:20px 0;
+  color:#333;
+}
+
+/* ######top###### */
+
+.top{
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:700px; 
+  background-color:black;
+  
+
+}
+
+.top_title{
+  font-size:50px;
+  font-weight:bold; 
+  color:#ffffff;
+  /* color:#000000; */
+  letter-spacing:8px;
+  padding:30px;
+  /* border:double #1ca9e3 10px; */
+}
+
+.top_subtitle{
+  font-size:20px;
+  font-weight:bold; 
+  color:#000000;
+  color:#ffffff;
+  letter-spacing:5px;
+  margin-top:20px;
+}
+
+.section{
+  padding:120px 0;
+  background-color:#f7f7f7;
+
+  margin-top:20px;
+  margin-bottom:10px;
+  border:solid  #515151 3px;
+}
+
+/*######section_background###### */
+.section:nth-of-type(even){
+  background-color:#f7f7f7;
+  /* background-color:#cccccc; */
+  /* background-color:#fefefe; */
+}
+
+/* ######ABOUT###### */
+
+.inner{
+  max-width:1000px;
+  margin:0 auto;
+  padding:0 40px;
+}
+
+.font1{
+  text-align:center;
+  font-size:60px;
+  font-weight:bold;
+  letter-spacing:5px;
+  color:#555;
+  /* color:rgb(205,150,73); */
+  color:#1ca9e3;
+  margin-bottom:60px;
+}
+
+.font2{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+.font3{
+  text-align:center;
+  margin-bottom:5px;
+  font-size:30px;
+  font-weight:bold;
+}
+
+.font4{
+  width:60%;
+  margin:0 auto;
+}
+
+.about_img{
+  display:block;
+  width:30%;
+  margin:0 auto 30px;
+  border-radius:50%;
+  box-shadow:0 0 20px 0 #333;
+}
+
+/* ######SKILL###### */
+
+.skill_item{
+  display:flex;
+  margin-bottom:50px;
+  /* align-items:center; */
+}
+
+.skill_img{
+  margin-right:20px;
+
+  /* box-shadow:0 0 20px 0 #333; */
+}
+
+.skill_img img{
+  display:block;
+  width:60px;
+  height:60px;
+  margin:0 auto 30px;
+  border-radius:50%;
+}
+
+/* ######WORK###### */
+
+.work_all{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.work_item{
+  flex:32%;
+  margin-right:2%;
+}
+
+.work_item:nth-of-type(3n){
+  margin-right:0;
+}
+
+.work_item a img{
+  width:100%;
+}
+
+.work_body p{
+  text-align:center;
+  font-size:15px;
+  font-weight:bold;
+  padding-bottom:6px;
+}
+
+/*###### CONTACT###### */
+
+.contact_list{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.contact_list li{
+  list-style:none;
+}
+
+.contact_img{
+  width:60px;
+}
+
+.contact_mail{
+  margin-top:10px;
+  text-align:center;
+}
+
+/* ######footer###### */
+
+.bottom{
+  background-color:#333;
+}
+
+.bottom .inner{
+  padding:30px;
+}
+
+.copyright{
+  font-size:13px;
+  text-align:center;
+  color:#fff;
+}
+
